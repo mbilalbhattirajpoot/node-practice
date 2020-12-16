@@ -31,12 +31,12 @@ fs.writeFile('mynewfile3.txt', 'This is my text', function (err) {
 var fs = require('fs');
 
 fs.unlink('mynewfile2.txt', function (err) {
-  if (err) throw err;
-  console.log('File deleted!');
+    if (err) throw err;
+    console.log('File deleted!');
 });
 var fs = require('fs');
 
 fs.rename('mynewfile1.txt', 'myrenamedfile.txt', function (err) {
-  if (err) throw err;
-  console.log('File Renamed!');
+    if (err) throw err;
+    console.log('File Renamed!');
 });
